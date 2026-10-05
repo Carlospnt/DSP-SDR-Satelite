@@ -7,7 +7,7 @@ Como receptor de radiofrequência, foi utilizado o **RTL-SDR Blog V3**.
 Para a ligação entre a antena e o SDR, foi utilizado um cabo coaxial com 3 metros de comprimento e impedância característica de 50 $\Omega$.
 
 ## 3. Conectores
-Foi utilizado um conector SMA Macho na extremidade do cabo para a ligação direta ao SDR, minimizando o uso de adaptadores e a consequente perda de inserção.
+Foi utilizado um conector SMA Macho na extremidade do cabo para a ligação direta ao SDR.
 
 ## 4. Soldagem e Ligações
 O cabo coaxial de descida para o rádio e o cabo utilizado como linha de atraso entre os dipolos foram soldados diretamente nos terminais dos elementos irradiantes.
@@ -38,4 +38,4 @@ A união dos elementos foi realizada da seguinte forma para garantir o casamento
 * **Dipolo 1 (Referência):** Conectado diretamente ao cabo coaxial principal (que desce para o SDR) e também a uma das extremidades do cabo de defasagem de 19,4 cm.
 * **Dipolo 2 (Atrasado):** A outra extremidade do cabo de defasagem liga-se aos terminais deste segundo dipolo, fechando o circuito.
 
-> **Importante:** Os elementos irradiantes não se podem tocar em ponto algum. Durante a montagem, a malha dos cabos coaxiais foi soldada aos elementos definidos como "terra", e o núcleo central aos elementos de "sinal". Os elementos correspondentes (sinal com sinal) foram posicionados mecanicamente a 90 graus um do outro. Devido ao espaçamento físico necessário no centro geométrico da cruzeta para evitar curtos-circuitos, a envergadura final da antena sofreu um ligeiro incremento, o qual pode ser compensado em ajustes de sintonia fina.
+> **Importante:** Os elementos irradiantes não podem se tocar em ponto algum, embora seja desejado o menor espaçamento entre eles. Durante a montagem, a malha dos cabos coaxiais foi soldada aos elementos definidos como "terra", e o núcleo central aos elementos de "sinal". Os elementos correspondentes (sinal com sinal) foram posicionados mecanicamente a 90 graus um do outro. Devido ao espaçamento físico necessário no centro geométrico da cruzeta para evitar curtos-circuitos, a envergadura final da antena sofreu um ligeiro incremento, o qual pode ser compensado em ajustes.
